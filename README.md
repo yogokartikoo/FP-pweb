@@ -1,2 +1,0 @@
-# FP-pemrograman
-putanginamogago
