@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Daftar</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/login.css" rel="stylesheet" id="bootstrap-css">
+  </head>
+  <body>
+
+    <div class="container">
+    	<div class="login-container">
+                <div id="output" >
+
+                </div>
+                <div class="form-box">
+                  <div class="">
+                    <h2>Form Daftar</h2>
+                  </div>
+                    <form action="index.html" ng-app="" name="myForm">
+                      <span class="notif" ng-show="myForm.user.$error.email">Masukan Email anda Dengan benar</span>
+                        <input type="email" name="user" ng-model="text" placeholder="Email">
+                        <input type="text" name="nama"  placeholder="Nama">
+                        <input type="email" name="alamat"  placeholder="Alamat">
+                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Ulangi Password">
+                        <button class="btn btn-info btn-block login" type="submit">Daftar</button>
+                          <span class="notif">Sudah Punya Akun ? Silakan
+                            <a href="login.html">Login</a>
+                          </span>
+                    </form>
+                </div>
+            </div>
+    </div>
+<script src="js/angular.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+  </body>
+</html>

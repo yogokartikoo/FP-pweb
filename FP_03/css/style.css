@@ -1,0 +1,414 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #828282;
+  background: #fff;
+
+}
+a {
+  color: #606060;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover, a:active, a:focus {
+  color: #d1c286;
+  outline: none;
+  text-decoration: none;
+}
+p {
+  margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, figure {
+  color: #000;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+.overlay a {
+    color: #fff;
+}
+.menu-nav #ecm-logo {
+    font-size: 20px;
+    margin: 0;
+    padding-left: 45px;
+    font-weight: bold;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+.menu-nav{
+    padding: 18px 0;
+    background: #fff;
+}
+.kategory {
+    background: #ececec85;
+    margin: 30px 0px 30px 0px;
+}
+#btn-logo {
+    display: inline-block;
+    padding: 0 5px 0 5px;
+    float: right;
+    margin-top: 7px;
+}
+img.gmb-artikel1 {
+    width: 100%;
+    margin-top: 10px;
+    height: 130px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(58, 207, 135);
+  background: rgba(58, 207, 135, 0.65);
+  color: #f1f1f1;
+  width: 247px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.barang-bawah:hover .overlay {
+  opacity: 1;
+}
+.sale {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 6px;
+}
+.sale h6 {
+    color: #fff;
+    text-align: center;
+    background: #ffc741;
+    padding: 13px 8px;
+    border-radius: 100%;
+}
+.aturan {
+    width: 80%;
+    border: 1px solid #c0c0c0;
+    padding: 5px 5px 5px 15px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+.btn-cari {
+    background: #fff;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #fff;
+    margin-left: 5px;
+    color: #c0c0c0;
+    border-radius: 4px;
+}
+.btn-cari:hover {
+    color: #fff;
+    background: #606060;
+    border: 1px solid #606060;
+}
+a.btn-daftar:hover, a.btn-login:hover {
+    border-radius: 4px;
+    color: #fff;
+    background: #606060;
+    padding: 10px;
+}
+a.btn-login {
+    background: #3acf87;
+    padding: 10px;
+    color: #fff;
+}
+a.btn-daftar {
+    background: #3acf87;
+    padding: 10px;
+    color: #fff;
+}
+.border-bwh {
+    border-bottom: 1px solid #bbb;
+    margin-top: 20px;
+    margin-left: -85px;
+
+}
+.gambar-isi {
+    width: 100%;
+    height: 330px;
+}
+.artikel-luar {
+    margin: auto;
+    width: 75%;
+    position: relative;
+    display: block;
+}
+.barang-bawah {
+    margin-top: 13px;
+}
+.barang {
+    margin-top: -80px;
+    color: #fff;
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+    border-bottom: 2px solid #3acf87;
+    border-left: 2px solid #f5f5f5;
+    border-right: 2px solid #f5f5f5;
+}
+.gmb-artikel {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+}
+.gmb-artikel-banner {
+    width: 100%;
+}
+.gmb-artikel2 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 22px;
+    border: 1px solid #fff;
+}
+.gmb-artikel2:hover {
+  border: 1px solid #e2e0e0;
+}
+.tulisan-banner h2, p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.dalam-banner{
+  position: relative;
+    margin-top: -417px;
+}
+.dalam-banner {
+    position: relative;
+    margin-top: -255px;
+}
+.kotak-banner {
+    margin: auto;
+    width: 55%;
+}
+h5.judul {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.gmb-artikel {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.kotak-banner a:hover {
+    color: #a2bf04;
+    border: 1px solid #a2bf04;
+}
+
+.kotak-banner a {
+    padding: 10px;
+    border: 1px solid;
+}
+.produku:hover {
+    border: 1px solid #bdbdbd;
+}
+
+.produku {
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+.produku p {
+    color:#5d5d5d;
+    position: relative;
+    margin-top: -12px;
+}
+.deskriosi {
+    text-align: right;
+    padding-top: 10px;
+}
+.produku h6 {
+    font-size: 17px;
+    border-bottom: 1px solid #d2d2d2;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.btn-tmb {
+    background: #0000;
+    border: 0px;
+    float: right;
+    color: #000;
+}
+.btn-tmb:hover {
+    color: #ef0303;
+}
+.btn-hps {
+    float: right;
+    color: #000;
+    background: #0000;
+    border: 0px;
+    margin-bottom: 10px;
+}
+.btn-hps:hover {
+    color: #967e00;
+}
+.pag-nav {
+    text-align: center;
+}
+.pag-nav>pagination {
+    margin: 0 0;
+}
+.pagination>li>a {
+    background: #fff;
+    color: #000;
+    border: 0px solid #000;
+}
+.footer {
+    background: #000;
+    padding: 10px;
+}
+.footer-kanan h6 {
+    float: right;
+    color: #fff;
+}
+.footer-kiri h6 {
+    color: #fff;
+}
+.total-barang h6 {
+    text-align: right;
+    padding: 10px;
+    font-size: 15px;
+}
+.berita {
+    font-size: 15px;
+    font-weight: 700;
+    color: #7d7d7d;
+    margin-top: -40px;
+    float: right;
+    margin-right: 35px;
+}
+img {
+  vertical-align: middle;
+}
+.gambar-kat {
+    width: 100%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 14px;
+    margin-right: 22px;
+    margin-left: 7px;
+    margin-top: -50px;
+    color: #3acf87;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.kat-bawah h4 {
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 20px;
+    color: #9c9c9c;
+}
+.kat-bawah p {
+    color: #909090;
+}
+.facebook, .twitter, .google {
+    padding: 10px;
+    color: #fff;
+}
+.facebook {
+    background: #4a6d9d;
+}
+.twitter {
+    background: #3bc1ed;
+}
+.google {
+    background: #d53824;
+}
+.facebook:hover {
+    background: #2b4b77;
+    color: #fff;
+}
+.twitter:hover {
+    background: #1c7694;
+    color: #fff;
+}
+.google:hover {
+    background: #af2918;
+    color: #fff;
+}
+.sosial-media {
+    border-bottom: 1px solid #a5a5a5;
+    padding-bottom: 20px;
+}
+.related {
+    border: 1px solid #d6d6d6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tentang2 {
+    float: right;
+}
+
+.tentang1,  .tentang3 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;
+    border-top: 1px solid #c5c5c5;
+    padding: 15px;
+    width: 85%;
+}
+.tentang2 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-bottom: 1px solid #c5c5c5;
+  border-right:  1px solid #c5c5c5;
+  border-top: 1px solid #c5c5c5;
+  padding: 15px;
+  width: 85%;
+}
+.tempat-kat {
+    margin-left: 25%;
+    width: 50%;
+}
+.kat-bawah {
+    margin-top: 30px;
+}
